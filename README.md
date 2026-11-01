@@ -1,0 +1,2 @@
+# glavny-zakon
+glavny-zakon
