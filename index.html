@@ -332,7 +332,9 @@ main .wrap>.stack>div:first-child{background:var(--surface);border:1px solid var
 .wmodal .question{font-size:clamp(1.3rem,2.6vw,2.3rem);padding:10px 16px}
 .wmodal .qpic svg,.wmodal .qpic img{height:clamp(120px,22vh,260px)}
 .wans{cursor:pointer;text-align:left;font:inherit;font-size:clamp(1rem,1.5vw,1.3rem);font-weight:700}
-.wans.picked{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue)}
+.wans.picked{border-color:#c9a24a;background:#fff3cf;box-shadow:0 0 0 4px #e9c46a,0 0 26px rgba(233,196,106,.85);transform:scale(1.03);transition:transform .15s,box-shadow .15s}
+.wans.picked .letter{background:#c9a24a;color:#14203f}
+.wans:hover{border-color:#c9a24a}
 .wans.wrong{border-color:var(--red);background:var(--red-soft)}
 .wclock{font-weight:900;font-size:1.6rem;font-variant-numeric:tabular-nums}
 .wclock.low{color:var(--red)}
